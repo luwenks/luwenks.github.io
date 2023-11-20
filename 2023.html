@@ -31,27 +31,24 @@
         <a href = "html/contact.html" class = "contact">Contact Me</a>
     </nav>
 
-    <!-- The video -->
+
     <video autoplay loop id="myVideo">
         <source src="img/TheVideo.mp4" type="video/mp4">
     </video>
     
-    <!-- Optional: some overlay text to describe the video -->
+
     <div class="vcontent">
         <h1>A short video summarizing my 2023</h1>
         <p>Thank you all for being a part of my year</p>
-        <!-- Use a button to pause/play the video with JavaScript -->
         <button id="myBtn" onclick="myFunction()">Pause</button>
     </div>
 
   <script>
-    // Get the video
+
     var video = document.getElementById("myVideo");
-    
-    // Get the button
+
     var btn = document.getElementById("myBtn");
     
-    // Pause and play the video, and change the button text
     function myFunction() {
       if (video.paused) {
         video.play();
